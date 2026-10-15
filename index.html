@@ -1,0 +1,163 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta name="description" content="Nexo Creativo: una muestra estudiantil de diseño web, diseño visual y contenido digital.">
+  <meta name="keywords" content="diseño web, HTML5, CSS3, portafolio, contenido digital">
+  <meta name="author" content="Estudiante de Diseño Web">
+  <meta name="theme-color" content="#102b4e">
+  <title>Nexo Creativo | Diseño web y contenido digital</title>
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+  <a class="skip-link" href="#contenido">Saltar al contenido</a>
+  <header class="site-header">
+    <nav class="navbar container" aria-label="Navegación principal">
+      <a class="brand" href="#inicio" aria-label="Nexo Creativo, inicio">
+        <span class="brand-mark" aria-hidden="true">N</span>
+        <span>Nexo<span class="brand-light">Creativo</span></span>
+      </a>
+      <button class="menu-toggle" id="menu-toggle" type="button" aria-expanded="false" aria-controls="nav-links">
+        <span class="sr-only">Abrir menú</span><span></span><span></span><span></span>
+      </button>
+      <ul class="nav-links" id="nav-links">
+        <li><a href="#servicios">Servicios</a></li>
+        <li><a href="#proyectos">Proyectos</a></li>
+        <li><a href="#multimedia">Multimedia</a></li>
+        <li><a class="nav-cta" href="#contacto">Hablemos</a></li>
+      </ul>
+    </nav>
+  </header>
+
+  <main id="contenido">
+    <section class="hero section" id="inicio">
+      <div class="container hero-grid">
+        <div class="hero-copy">
+          <p class="eyebrow"><span class="eyebrow-dot"></span> IDEAS QUE SE VUELVEN DIGITALES</p>
+          <h1>Diseño web con <span class="text-accent">ideas claras</span> y personalidad.</h1>
+          <p class="hero-description">Este es un pequeño espacio creativo donde reúno ideas de diseño, páginas web y contenido digital. La meta es que cada proyecto sea fácil de usar y tenga su propio estilo.</p>
+          <div class="hero-actions">
+            <a class="button button-primary" href="#proyectos">Ver proyectos <span aria-hidden="true">↗</span></a>
+            <a class="button button-quiet" href="#servicios">Conocer más</a>
+          </div>
+          <div class="hero-note">
+            <span class="note-icon" aria-hidden="true">✦</span>
+            <p><strong>Hecho con curiosidad.</strong><br>HTML, CSS y un poco de JavaScript.</p>
+          </div>
+        </div>
+        <div class="hero-visual">
+          <img src="assets/hero-creatividad.png" alt="Ilustración de una laptop con una página web y materiales de diseño sobre un escritorio" width="1024" height="1024">
+          <div class="floating-tag tag-top"><span>✳</span> Diseño + tecnología</div>
+          <div class="floating-tag tag-bottom"><span class="tag-dot"></span> Ideas en proceso</div>
+        </div>
+      </div>
+      <div class="hero-shape" aria-hidden="true"></div>
+    </section>
+
+    <section class="intro-strip" aria-label="Presentación">
+      <div class="container intro-inner">
+        <p>Un sitio sencillo, visual y adaptable</p>
+        <div class="intro-pills"><span>HTML5</span><span>CSS3</span><span>JavaScript</span><span>SEO básico</span></div>
+      </div>
+    </section>
+
+    <section class="section section-light" id="servicios">
+      <div class="container">
+        <div class="section-heading">
+          <p class="eyebrow">LO QUE PUEDO HACER</p>
+          <h2>Ideas que toman forma</h2>
+          <p>Estos son algunos temas que me gusta trabajar y seguir practicando.</p>
+        </div>
+        <div class="service-grid">
+          <article class="service-card">
+            <div class="service-icon icon-teal" aria-hidden="true">⌘</div>
+            <h3>Páginas web</h3>
+            <p>Organizo la información en secciones claras para que las personas encuentren lo que buscan sin complicarse.</p>
+            <a href="#proyectos" class="text-link">Ver ejemplo <span aria-hidden="true">→</span></a>
+          </article>
+          <article class="service-card">
+            <div class="service-icon icon-gold" aria-hidden="true">✳</div>
+            <h3>Diseño visual</h3>
+            <p>Combino colores, imágenes y tipografías para que el sitio tenga una identidad propia y sea agradable de mirar.</p>
+            <a href="#proyectos" class="text-link">Ver ejemplo <span aria-hidden="true">→</span></a>
+          </article>
+          <article class="service-card">
+            <div class="service-icon icon-coral" aria-hidden="true">▶</div>
+            <h3>Contenido digital</h3>
+            <p>Integro recursos de audio y video cuando ayudan a explicar mejor una idea o presentar un proyecto.</p>
+            <a href="#multimedia" class="text-link">Ver recursos <span aria-hidden="true">→</span></a>
+          </article>
+        </div>
+      </div>
+    </section>
+
+    <section class="section projects-section" id="proyectos">
+      <div class="container">
+        <div class="section-heading heading-row">
+          <div><p class="eyebrow">UNA MUESTRA DE TRABAJO</p><h2>Proyectos destacados</h2></div>
+          <p>Ejemplos de práctica que muestran distintas formas de usar el diseño web.</p>
+        </div>
+        <div class="project-grid">
+          <article class="project-card">
+            <div class="project-image"><img src="assets/sitios-web.png" alt="Diseño de ejemplo para un sitio web en una ventana de navegador" width="800" height="520" loading="lazy"><span class="project-number">01</span></div>
+            <div class="project-info"><p class="project-type">DISEÑO WEB</p><h3>Una web ordenada</h3><p>Una propuesta con secciones simples, buena lectura y navegación directa.</p><div class="project-tags"><span>HTML</span><span>CSS</span></div></div>
+          </article>
+          <article class="project-card">
+            <div class="project-image"><img src="assets/diseno-visual.png" alt="Composición gráfica con bloques de color y elementos de diseño" width="800" height="520" loading="lazy"><span class="project-number">02</span></div>
+            <div class="project-info"><p class="project-type">DISEÑO VISUAL</p><h3>Colores con intención</h3><p>Una composición que mantiene los colores y los elementos visuales en equilibrio.</p><div class="project-tags"><span>Color</span><span>Composición</span></div></div>
+          </article>
+          <article class="project-card">
+            <div class="project-image"><img src="assets/contenido-digital.png" alt="Diseño de contenido multimedia con formas y controles visuales" width="800" height="520" loading="lazy"><span class="project-number">03</span></div>
+            <div class="project-info"><p class="project-type">MULTIMEDIA</p><h3>Contenido que conecta</h3><p>Recursos audiovisuales que complementan el contenido sin recargar la página.</p><div class="project-tags"><span>Audio</span><span>Video</span></div></div>
+          </article>
+        </div>
+      </div>
+    </section>
+
+    <section class="section multimedia-section" id="multimedia">
+      <div class="container multimedia-grid">
+        <div>
+          <p class="eyebrow">UN POCO DE MULTIMEDIA</p>
+          <h2>El contenido también se escucha y se ve.</h2>
+          <p class="multimedia-copy">Agregué un audio corto de prueba y un video insertado desde YouTube. El audio está dentro de la carpeta del proyecto; el video necesita conexión a internet.</p>
+          <div class="audio-panel">
+            <div class="audio-symbol" aria-hidden="true">♫</div>
+            <div class="audio-content"><h3>Sonido de muestra</h3><p>Audio local de prueba · 4 segundos</p><audio controls preload="metadata"><source src="assets/ambiente-demo.wav" type="audio/wav">Tu navegador no puede reproducir este audio.</audio></div>
+          </div>
+        </div>
+        <div class="video-panel">
+          <div class="video-heading"><span class="video-live-dot"></span><span>VIDEO DE EJEMPLO</span></div>
+          <div class="video-frame">
+            <iframe src="https://www.youtube-nocookie.com/embed/aqz-KE-bpKQ" title="Video de ejemplo Big Buck Bunny en YouTube" loading="lazy" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
+          </div>
+          <p class="video-caption">Video demostrativo insertado con iframe. Puedes cambiarlo por un video relacionado con tu tema.</p>
+        </div>
+      </div>
+    </section>
+
+    <section class="section contact-section" id="contacto">
+      <div class="container contact-box">
+        <div><p class="eyebrow">¿TIENES UNA IDEA?</p><h2>Vamos a darle forma.</h2><p>Este formulario es una demostración de interacción para la práctica. No envía información a un servidor.</p></div>
+        <form id="contact-form" class="contact-form">
+          <label for="nombre">Tu nombre</label>
+          <input id="nombre" name="nombre" type="text" placeholder="Escribe tu nombre" required>
+          <label for="mensaje">¿Qué tienes en mente?</label>
+          <textarea id="mensaje" name="mensaje" rows="3" placeholder="Cuéntame un poco..." required></textarea>
+          <button class="button button-primary" type="submit">Preparar mensaje <span aria-hidden="true">→</span></button>
+          <p id="form-message" class="form-message" role="status" aria-live="polite"></p>
+        </form>
+      </div>
+    </section>
+  </main>
+
+  <footer class="site-footer">
+    <div class="container footer-inner">
+      <a class="brand footer-brand" href="#inicio"><span class="brand-mark" aria-hidden="true">N</span><span>Nexo<span class="brand-light">Creativo</span></span></a>
+      <p>Proyecto de práctica de Diseño Web · HTML5 + CSS3 + JavaScript</p>
+      <a href="#inicio" class="back-top">Volver arriba ↑</a>
+    </div>
+  </footer>
+  <script src="script.js"></script>
+</body>
+</html>
